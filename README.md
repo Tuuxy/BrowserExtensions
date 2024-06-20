@@ -6,7 +6,7 @@ Browser extensions are small software programs that customize and enhance the fu
 
 ## Composition 
 
-Extensions are often packaged as ZIP files containing JavaScript and other necessary files. They typically consist of 2 files :
+Extensions are often packaged as ZIP files containing JavaScript and other necessary files. They typically consist of several files, including at least a manifest.json and a content.js or background.js file.
 
 - manifest.json 
 
@@ -29,6 +29,11 @@ Possibilities :
 - Alter HTML content and page appearances
 - Inject Ads
 - Compromise browser sessions
+- Perform Cross-Site Scripting (XSS) attacks.
+- Conduct Man-in-the-Middle (MitM) attacks.
+- Perform Clickjacking attacks.
+- Manipulate browser settings, such as changing the default search engine or homepage.
+
 
 ... And many more !
 
@@ -40,9 +45,13 @@ Possibilities :
 
 - Code Review : Advanced users can examine extension code for suspicious activities. 
 
+- Update : Keep browser and extensions up to date. Outdated extensions can have security vulnerabilities.
+
+- Keep it simple : Limit the number of extensions installed. The more extensions, the higher the attack surface.
+
 ## Examples
 
 WIP
 
-- Inject Ads (html modifying)
-- Keylog + 2FA bypass
+- Inject Ads (html modifying) : SuperZoom EasyBattery
+- Keylog + 2FA bypass Modify Firefox Browser Add-Art-To-Page
