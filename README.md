@@ -51,7 +51,8 @@ Possibilities :
 
 ## Examples
 
-WIP
+--- WORK IN PROGRESS ---
 
-- Inject Ads (html modifying) : SuperZoom EasyBattery
-- Keylog + 2FA bypass Modify Firefox Browser Add-Art-To-Page
+Keylogger + Bypass 2FA 
+
+------------------------
